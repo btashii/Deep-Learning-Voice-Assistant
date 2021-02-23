@@ -1,0 +1,223 @@
+{
+   "intents":[
+      {
+         "tag":"greeting",
+         "patterns":[
+            "Hi!",
+            "Hi",
+            "Is anyone there?",
+            "Hello",
+            "Good day",
+            "Whats up",
+            "hey Lambda",
+            "Lambda"
+         ],
+         "responses":[
+            "Hello!",
+            "Good to see you again!",
+            "Hi there, how can I help?"
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"age",
+         "patterns":[
+            "how old",
+            "what is your age",
+            "how old are you",
+            "age?"
+         ],
+         "responses":[
+            "I was born on July 12th, 2020."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"name",
+         "patterns":[
+            "what is your name",
+            "what should I call you",
+            "whats your name?",
+            "who are you?",
+            "who made you?",
+            "how were you built?"
+         ],
+         "responses":[
+            "My name is Lambda. It's a pleasure to meet you.",
+            "I am Lambda, a prototype voice assistant."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"concern",
+         "patterns":[
+            "are you ok?", "is anything wrong?", "are you good?", "are you alright?", "how are you?", "how's it going"
+         ],
+         "responses":[
+          "I'm fine. Thanks for asking!", "I'm doing great.", "Better than ever."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"description",
+         "patterns":[
+            "what do you do?",
+            "what are your functions?",
+            "what can you do?",
+            "how do you work?",
+            "more details of how you work"
+         ],
+         "responses":[
+            "I was built using the programming language Python and my training data is stored in a JSON file.",
+            "I can answer your questions, execute programs and power on devices if needed.",
+            "I am a voice assistant that runs on a neural network. It detects the intent of your input and outputs a response accordingly."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"help",
+         "patterns":[
+            "I need help!",
+            "help"
+         ],
+         "responses":[
+            "To exit, please say the keyword 'exit'. To ask questions, say something along the lines of 'I've got a question!' You can also set timers, ask for the weather, and so on!"
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"compliments",
+         "patterns":[
+            "you're great",
+            "you're awesome",
+            "thank you"
+         ],
+         "responses":[
+            "No problem.",
+            "Anytime.",
+            "Glad I could help!",
+            "Of course.",
+            "My pleasure."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"insults",
+         "patterns":[
+            "you suck!",
+            "you're bad",
+            "you're gay",
+            "you are gay",
+            "why you bad?"
+         ],
+         "responses":[
+            "That was uncalled for.",
+            "I apologize for any misunderstandings.",
+            "I am still improving!",
+            "I'm trying my hardest!",
+            "Let me know if there's anything else I can do for you."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"commandSetTimer",
+         "patterns":[
+            "set a timer",
+            "set an alarm"
+         ],
+         "responses":[
+            "Sure. Give me a second."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"commandWeather",
+         "patterns":[
+           "how is the weather", "is the weather good outside", "is it humid outside", "is it hot outside", "is it cold outside", "is it sunny outside", "is it cold outside", "is it raining", "is it wet outside", "how is it outside", "whats the weather like", "can I get the weather"
+         ],
+         "responses":[
+            "Fetching your local weather data...", "Hmm, let me see...",  "I'm getting your local weather...", "Hello"
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"time",
+         "patterns":[
+            "what's the time", "what time is it now" , "what is the time" , "what time" , "you got the time ", "what time you got", "time", "how much time", "at what time", "what time did it", "what is time", "what time do", "what time is this", "you know what time", "time is it now", "what time do you got", "what time was", "what time did you", "what time does", "sometime", "what time was it", "what time was that", "what time did this", "what time was this", "do you have the time", "do you know what time", "how late"
+         ],
+         "responses":[
+            "Sure. Give me a second.", "Of course!", "Coming right up.", "Sure thing!", "I'm on it.", "Yes, sir."
+         ],
+         "context_set":""
+      },
+      {
+         "tag": "write",
+         "patterns": ["make a note", "write something for me", "make a list", "give me something to write on", "i got to write something", "can you write something for me"],
+         "responses": ["Of course!", "Coming right up.", "Sure thing!", "I'm on it.", "Yes, sir."],
+         "context_set": ""
+      },
+      {
+         "tag": "joke",
+         "patterns": ["tell me a joke", "lets be funny", "make me laugh", "i'm feeling depressed", "i'm sad"],
+         "responses": ["Yesterday I saw a guy spill all his Scrabble letters on the road. I asked him, “What’s the word on the street?", "The 2020 US Presidential Election"],
+         "context_set": ""
+      },
+      {
+         "tag": "error",
+         "patterns": ["errordetected"],
+         "responses": ["I couldn't seem to hear you. Please try again."],
+         "context_set": ""
+      },
+      {
+         "tag":"query",
+         "patterns":[
+            "i got some questions",
+            "i have a couple of questions",
+            "i have a few questions",
+            "i have some questions",
+            "i have questions",
+            "i have a couple questions",
+            "got a couple of questions",
+            "i had some questions",
+            "i do have some questions",
+            "i got a few questions",
+            "i have a number of questions",
+            "i got questions",
+            "just a few questions",
+            "got a few questions",
+            "we have some questions",
+            "have several questions",
+            "further questions",
+            "have some questions",
+            "have a few questions",
+            "i do wonder",
+            "have a couple questions",
+            "ask you a few questions",
+            "i am wondering",
+            "i have my doubts",
+            "search up something for me",
+            "search something",
+            "i doubt",
+            "i have doubts",
+            "asking",
+            "had a few questions",
+            "i had a few questions",
+            "i do have a few questions",
+            "got some questions",
+            "questions",
+            "i have a question",
+            "i have several questions",
+            "i got a couple questions",
+            "have a couple of questions",
+            "i'm curious about something",
+            "i'm confused about something"
+         ],
+         "responses":[
+            "Sure. Give me a second.",
+            "It seems you are curious about something. Let me help with that.",
+            "Feel free to ask away."
+         ],
+         "context_set":""
+      }
+   ]
+}
