@@ -151,7 +151,7 @@ def time():
     TTS("The current time is " + current_time + ".")
 
 def weather():
-    api_key = "24beaaa11a9ae3d1af5b88eea0882954"
+    api_key = ""
     base_url = "http://api.openweathermap.org/data/2.5/weather?"
     #Add speech to text here
     #city_name = input("What's your city?: ")
@@ -331,7 +331,7 @@ def speech_to_text():
 
 
 
-wakephrase = "hey george"
+wakephrase = "hey Lambda"
 
 #Idea
 '''something like if for a certain amount of time the mic doesn't receive info, program goes to sleep and
