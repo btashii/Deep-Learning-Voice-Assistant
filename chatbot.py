@@ -24,7 +24,7 @@ from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 stemmer = LancasterStemmer()
 
 #Set up for IBM Watson TTS (10,000 characters per month!)
-apikey = 'Mj28UncAcGQJ77c0Yoh7hNygQrgKUfQm3G_RSWHHKzCE'
+apikey = ''
 url = 'https://api.us-east.text-to-speech.watson.cloud.ibm.com/instances/75bbecd0-25d5-485e-9d3d-6db3d9748baa'
 authenticator = IAMAuthenticator(apikey)
 tts = TextToSpeechV1(authenticator=authenticator)
