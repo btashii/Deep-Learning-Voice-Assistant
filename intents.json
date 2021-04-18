@@ -102,24 +102,6 @@
          "context_set":""
       },
       {
-         "tag":"insults",
-         "patterns":[
-            "you suck!",
-            "you're bad",
-            "you're gay",
-            "you are gay",
-            "why you bad?"
-         ],
-         "responses":[
-            "That was uncalled for.",
-            "I apologize for any misunderstandings.",
-            "I am still improving!",
-            "I'm trying my hardest!",
-            "Let me know if there's anything else I can do for you."
-         ],
-         "context_set":""
-      },
-      {
          "tag":"commandSetTimer",
          "patterns":[
             "set a timer",
@@ -158,8 +140,8 @@
       },
       {
          "tag": "joke",
-         "patterns": ["tell me a joke", "lets be funny", "make me laugh", "i'm feeling depressed", "i'm sad"],
-         "responses": ["Yesterday I saw a guy spill all his Scrabble letters on the road. I asked him, “What’s the word on the street?", "The 2020 US Presidential Election"],
+         "patterns": ["tell me a joke", "lets be funny", "make me laugh"],
+         "responses": ["What do you call a pig that does karate? A pork chop!"],
          "context_set": ""
       },
       {
