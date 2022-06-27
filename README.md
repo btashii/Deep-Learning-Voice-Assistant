@@ -8,3 +8,7 @@ In order to run this program successfully, you must first launch AI_Interface.py
 
 
 ![voiceassistant](https://user-images.githubusercontent.com/66987198/175840919-02cb5784-98b8-4c6c-9fae-00ec5c7503d1.jpg)
+img[src$="centerme"] {
+  display:block;
+  margin: 0 auto;
+}
